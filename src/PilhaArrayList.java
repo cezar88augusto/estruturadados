@@ -31,11 +31,21 @@ public class PilhaArrayList {
         System.out.println("Menor elemento da pilha: " + menorElemento.getFirst());
     }
 
-    public boolean isVazia() {
+    private boolean isVazia() {
         return elementos.isEmpty();
     }
 
-    public void exibirMenorElemento() {
-        System.out.println("Menor elemento da Pilha: " + menorElemento);
+    public static void main(String[] args) {
+        PilhaArrayList pilhaArrayList = new PilhaArrayList();
+
+        pilhaArrayList.adicionarNumeroNaPilha(39); // 1ª Adicionado
+        pilhaArrayList.adicionarNumeroNaPilha(40); // 2ª Adicionado
+        pilhaArrayList.adicionarNumeroNaPilha(10); // 3ª Adicionado
+        pilhaArrayList.adicionarNumeroNaPilha(30); // 4ª Adicionado
+
+        pilhaArrayList.removerNumeroDaPilha();
+        pilhaArrayList.removerNumeroDaPilha();
+
+        pilhaArrayList.obterMenorElementoDaPilha();
     }
 }
