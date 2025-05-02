@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        PilhaVetor pilhaVetor = new PilhaVetor(10);
+        PilhaArrayList pilhaArrayList = new PilhaArrayList();
 
-        pilhaVetor.adicionarNumeroNaPilha(1);
-        pilhaVetor.adicionarNumeroNaPilha(2);
-        pilhaVetor.adicionarNumeroNaPilha(3);
+        pilhaArrayList.adicionarNumeroNaPilha(39); // 1ª Adicionado
+        pilhaArrayList.adicionarNumeroNaPilha(40); // 2ª Adicionado
+        pilhaArrayList.adicionarNumeroNaPilha(10); // 3ª Adicionado
+        pilhaArrayList.adicionarNumeroNaPilha(30); // 4ª Adicionado
 
-        pilhaVetor.removerNumeroDaPilha();
-        pilhaVetor.removerNumeroDaPilha();
+        pilhaArrayList.removerNumeroDaPilha();
+        pilhaArrayList.removerNumeroDaPilha();
+
+        pilhaArrayList.obterMenorElementoDaPilha();
     }
 }
