@@ -4,6 +4,7 @@ public class Main {
 
         pilhaVetor.adicionarNumeroNaPilha(1);
         pilhaVetor.adicionarNumeroNaPilha(2);
+        pilhaVetor.adicionarNumeroNaPilha(3);
 
         pilhaVetor.removerNumeroDaPilha();
         pilhaVetor.removerNumeroDaPilha();
