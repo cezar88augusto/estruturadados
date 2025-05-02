@@ -1,10 +1,10 @@
-public class Pilha {
+public class PilhaVetor {
 
     private final int[] vetor;
     private int topo;
     private final int capacidade;
 
-    public Pilha(int capacidade) {
+    public PilhaVetor(int capacidade) {
         this.vetor = new int[capacidade];
         this.capacidade = capacidade;
         this.topo = -1;
